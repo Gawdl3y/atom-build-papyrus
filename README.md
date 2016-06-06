@@ -4,7 +4,7 @@ A build provider for the Atom [build](https://atom.io/packages/build) package th
 For Papyrus syntax highlighting, use the [language-papyrus](https://atom.io/packages/language-papyrus) package.
 
 ## Usage
-If your Fallout 4 Papyrus compiler is not in the default location (`C:\\Program Files (x86)\\Steam\\SteamApps\\common\\Fallout 4\\Papyrus Compiler\\PapyrusCompiler.exe`), then the compiler path setting must be configured to you appropriate path.
+If your Fallout 4 Papyrus compiler is not in the default location (`C:\Program Files (x86)\Steam\SteamApps\common\Fallout 4\Papyrus Compiler\PapyrusCompiler.exe`), then the compiler path setting must be configured to you appropriate path.
 
 Only Papyrus project file (`.ppj`) builds are supported currently.
 Make sure the directory you have open in Atom contains your project file in its root.
