@@ -1,4 +1,4 @@
-# Atom build-papyrus
+# build-papyrus package for Atom
 
 A build provider for the Atom [build](https://atom.io/packages/build) package that handles Papyrus projects for Fallout 4.  
 For Papyrus syntax highlighting, use the [language-papyrus](https://atom.io/packages/language-papyrus) package.
