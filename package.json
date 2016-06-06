@@ -1,0 +1,31 @@
+{
+	"name": "build-papyrus",
+	"version": "0.0.0",
+	"description": "Papyrus build provider for atom-build",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Gawdl3y/atom-build-papyrus.git"
+	},
+	"bugs": {"url": "https://github.com/Gawdl3y/atom-build-papyrus/issues"},
+	"keywords": ["build", "compile", "papyrus", "fallout", "skyrim"],
+
+	"main": "./lib/papyrus.js",
+	"providedServices": {
+		"builder": {
+			"description": "Builds Papyrus projects",
+			"versions": {
+				"2.0.0": "provideBuilder"
+			}
+		}
+	},
+	"devDependencies": {
+		"babel-eslint": "^6.0.4",
+		"eslint": "^2.11.1",
+		"eslint-config-atom-build": "^3.0.0"
+	},
+	"engines": {
+		"atom": "*",
+		"node": "*"
+	}
+}

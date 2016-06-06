@@ -1,0 +1,14 @@
+{
+	"parser": "babel-eslint",
+	"extends": "atom-build",
+	"rules": {
+		"indent": ["error", "tab"],
+		"keyword-spacing": ["error", {
+			"overrides": {
+				"if": { "after": false },
+				"for": { "after": false },
+				"while": { "after": false }
+			}
+		}]
+	}
+}
