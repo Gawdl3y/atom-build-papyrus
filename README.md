@@ -22,7 +22,7 @@ This should also go in your root directory. The possible settings:
 | `compiler`        | String   | Appropriate `game` path   | Full path to the Papyrus compiler you wish to use. **Either this or `game` must be defined.**  |
 | `imports`         | Array    |                           | Array of strings that are full paths to script import directories. **Required**                |
 | `output`          | String   | `./`                      | Directory for the compiler to output to                                                        |
-| `flags`           | String   | Appropriate `game` file   | The compiler flags file. **Required if `game` is not specified.                                |
+| `flags`           | String   | Appropriate `game` file   | The compiler flags file. **Required if `game` is not specified.**                              |
 | `optimize`        | Boolean  | `true`                    | Whether or not the compiler should optimize its output.                                        |
 | `release`         | Boolean  | `false`                   | Whether or not the compiler should build for release (strip out debugOnly)                     |
 | `final`           | Boolean  | `false`                   | Whether or not the compiler should build for final release (strip out debugOnly and betaOnly)  |
