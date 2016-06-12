@@ -1,4 +1,6 @@
 ## 1.2
+- 1.2.3
+	* Fixed compiler overriding for project file builds
 - 1.2.2
 	* Added changelog
 - 1.2.1
