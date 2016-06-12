@@ -1,4 +1,7 @@
 ## 1.2
+- 1.2.4
+	* Changed default output to "."
+	* Minor code restructuring
 - 1.2.3
 	* Fixed compiler overriding for project file builds
 - 1.2.2
