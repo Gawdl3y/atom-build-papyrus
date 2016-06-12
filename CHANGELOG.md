@@ -1,4 +1,6 @@
 ## 1.2
+- 1.2.2
+	* Added changelog
 - 1.2.1
 	* Added new config file formats to readme
 	* Added example config file to readme
