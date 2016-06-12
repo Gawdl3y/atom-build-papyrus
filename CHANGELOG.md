@@ -1,6 +1,8 @@
 ## 1.2
+- 1.2.5
+	* Removed an incorrect space in the output default in readme (whoops, gotta make sure that documentation is accurate)
 - 1.2.4
-	* Changed default output to "."
+	* Removed slash from default output (was "./", now ".")
 	* Minor code restructuring
 - 1.2.3
 	* Fixed compiler overriding for project file builds

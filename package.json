@@ -1,6 +1,6 @@
 {
   "name": "build-papyrus",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Papyrus build provider for atom-build",
   "license": "MIT",
   "repository": {
