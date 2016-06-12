@@ -35,6 +35,8 @@ Triggering a build will compile the file you currently have opened.
 game: fallout4
 imports:
     - C:\Program Files (x86)\Steam\SteamApps\common\Fallout 4\Data\Scripts\Source\User
+    - C:\Program Files (x86)\Steam\SteamApps\common\Fallout 4\Data\Scripts\Source\DLC03
+    - C:\Program Files (x86)\Steam\SteamApps\common\Fallout 4\Data\Scripts\Source\DLC02
     - C:\Program Files (x86)\Steam\SteamApps\common\Fallout 4\Data\Scripts\Source\DLC01
     - C:\Program Files (x86)\Steam\SteamApps\common\Fallout 4\Data\Scripts\Source\Base
 output: C:\Program Files (x86)\Steam\SteamApps\common\Fallout 4\Data\Scripts\
