@@ -27,6 +27,22 @@ This should also go in your root directory. The possible settings:
 | `release`         | Boolean  | `false`                   | Whether or not the compiler should build for release (strip out debugOnly)                     |
 | `final`           | Boolean  | `false`                   | Whether or not the compiler should build for final release (strip out debugOnly and betaOnly)  |
 
+Triggering a build will compile the file you currently have opened.
+
+#### Example config file
+`.build-papyrus.yml`:
+```yaml
+game: fallout4
+imports:
+    - C:\Program Files (x86)\Steam\SteamApps\common\Fallout 4\Data\Scripts\Source\User
+    - C:\Program Files (x86)\Steam\SteamApps\common\Fallout 4\Data\Scripts\Source\DLC01
+    - C:\Program Files (x86)\Steam\SteamApps\common\Fallout 4\Data\Scripts\Source\Base
+output: C:\Program Files (x86)\Steam\SteamApps\common\Fallout 4\Data\Scripts\
+optimize: true
+release: false
+final: false
+```
+
 ## What is Papyrus?
 Papyrus is a scripting language for the Creation Engine, the game engine that *The Elder Scrolls V: Skyrim* and *Fallout 4* run on.
 Mods for them use this language to make things happen in the game.
