@@ -13,7 +13,7 @@ Make sure the directory you have open in Atom contains your project file in its 
 If you add, remove, or rename a project file, make sure you run `build:refresh-targets` in the command palette.
 
 ### Manual configuration
-If you aren't using project files (Skyrim doesn't support them), then you can also configure the build settings in a configuration file called `.papyrus.json`.
+If you aren't using project files (Skyrim doesn't support them), then you can also configure the build settings in a JSON, CSON, or YAML configuration file called `.build-papyrus.json`, `.build-papyrus.cson`, or `.build-papyrus.yml`.
 This should also go in your root directory. The possible settings:
 
 | Option            | Type     | Default                   | Details                                                                                        |
