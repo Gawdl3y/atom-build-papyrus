@@ -2,13 +2,14 @@
 	"parser": "babel-eslint",
 	"extends": "atom-build",
 	"rules": {
-		"indent": ["error", "tab"],
+		"indent": ["error", "tab", { "SwitchCase": 1 }],
 		"keyword-spacing": ["error", {
 			"overrides": {
 				"if": { "after": false },
 				"for": { "after": false },
 				"while": { "after": false },
-				"catch": { "after": false }
+				"catch": { "after": false },
+				"switch": { "after": false }
 			}
 		}]
 	}
