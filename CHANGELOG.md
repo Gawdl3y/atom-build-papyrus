@@ -1,3 +1,9 @@
+## 1.3
+- 1.3.0
+	* Added the ability to choose between the project file or the config file when both are fully usable (`build:select-active-target` to select)
+	* Fixed errors when the config file is empty
+	* Lots of code restructuring and cleanup
+
 ## 1.2
 - 1.2.5
 	* Removed an incorrect space in the output default in readme (whoops, gotta make sure that documentation is accurate)
