@@ -11,6 +11,7 @@
 				"catch": { "after": false },
 				"switch": { "after": false }
 			}
-		}]
+		}],
+		"no-else-return": "off"
 	}
 }
