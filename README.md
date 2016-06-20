@@ -1,4 +1,8 @@
 # build-papyrus package for Atom
+[![Downloads](https://img.shields.io/apm/dm/build-papyrus.svg)](https://atom.io/packages/build-papyrus)
+[![Version](https://img.shields.io/apm/v/build-papyrus.svg)](https://atom.io/packages/build-papyrus)
+[![Dependency status](https://david-dm.org/Gawdl3y/atom-build-papyrus.svg)](https://david-dm.org/Gawdl3y/atom-build-papyrus)
+[![License](https://img.shields.io/apm/l/build-papyrus.svg)](LICENSE)
 
 A build provider for the Atom [build](https://atom.io/packages/build) package that handles Papyrus projects and manual build configuration.  
 For Papyrus syntax highlighting, use the [language-papyrus](https://atom.io/packages/language-papyrus) package.
