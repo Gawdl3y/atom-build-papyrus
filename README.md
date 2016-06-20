@@ -11,18 +11,19 @@ Fallout 4 default:  `C:\Program Files (x86)\Steam\SteamApps\common\Fallout 4\Pap
 
 To build, use `build:trigger` (<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>B</kbd> or <kbd>F9</kbd>).  
 You can select which build target you'd like to use with `build:select-active-target` (<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>T</kbd> or <kbd>F7</kbd>).  
-There will be a three targets: default, release, and final release.  
+There are multiple build targets: default, release, and final release. Only the default target is available for Skyrim.  
 The default target will use the `release` and `final` settings from the project file/configuration file.  
 The release target will send the `release` argument to the compiler.  
 The final release target will send both the `release` and `final` arguments to the compiler.  
-If you have both a project file and a fully-buildable configuration file present, targets will be available for both, making a total of six targets.
+If you have both a project file and a fully-buildable configuration file present, targets will be available for both.
 
 ### Papyrus project files
 Make sure the directory you have open in Atom contains your project file in its root.
 If you add, remove, or rename a project file, make sure you run `build:refresh-targets` in the command palette.
+Skyrim does not support project files.
 
 ### Manual configuration
-If you aren't using project files (Skyrim doesn't support them), then you can also configure the build settings in a JSON, CSON, or YAML configuration file called `.build-papyrus.json`, `.build-papyrus.cson`, or `.build-papyrus.yml`.
+If you aren't using project files, then you can also configure the build settings in a JSON, CSON, or YAML configuration file called `.build-papyrus.json`, `.build-papyrus.cson`, or `.build-papyrus.yml`.
 This should also go in your root directory. The possible settings:
 
 | Option            | Type     | Default                   | Details                                                                                        |
