@@ -1,3 +1,9 @@
+## 1.4
+- 1.4.0
+	* Added release and final release build targets for both project file and config file builds (but not for Skyrim)
+	* Disabled project file builds for Skyrim
+	* Added loads more information to the readme
+
 ## 1.3
 - 1.3.0
 	* Added the ability to choose between the project file or the config file when both are fully usable (`build:select-active-target` to select)
