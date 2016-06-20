@@ -25,7 +25,7 @@ This should also go in your root directory. The possible settings:
 | `flags`           | String   | Appropriate `game` file   | The compiler flags file. **Required if `game` is not specified.**                              |
 | `optimize`        | Boolean  | `true`                    | Whether or not the compiler should optimize its output.                                        |
 | `release`         | Boolean  | `false`                   | Whether or not the compiler should build for release (strip out debugOnly)                     |
-| `final`           | Boolean  | `false`                   | Whether or not the compiler should build for final release (strip out debugOnly and betaOnly)  |
+| `final`           | Boolean  | `false`                   | Whether or not the compiler should build for final release (strip out betaOnly)                |
 
 Triggering a build will compile the file you currently have opened.
 
