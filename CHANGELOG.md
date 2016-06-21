@@ -1,4 +1,6 @@
 ## 1.4
+- 1.4.1
+	* Updated readme with badges, some reformatting, and information about project file `release` and `final` values still being taken into account for the build targets
 - 1.4.0
 	* Added release and final release build targets for both project file and config file builds (but not for Skyrim)
 	* Disabled project file builds for Skyrim
