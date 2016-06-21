@@ -15,7 +15,7 @@ Fallout 4 default:  `C:\Program Files (x86)\Steam\SteamApps\common\Fallout 4\Pap
 
 To build, use `build:trigger` (<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>B</kbd> or <kbd>F9</kbd>).  
 You can select which build target you'd like to use with `build:select-active-target` (<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>T</kbd> or <kbd>F7</kbd>).  
-There are multiple build targets: default, release, and final release. Only the default target is available for Skyrim.
+There are multiple build targets: default, release, and final release (only the default target is available for Skyrim).
 * The **default** target will use the `release` and `final` settings from the project file/configuration file.
 * The **release** target will send the `-release` argument to the compiler.
 * The **final release** target will send both the `-release` and `-final` arguments to the compiler.
