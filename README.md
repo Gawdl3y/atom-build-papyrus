@@ -15,10 +15,11 @@ Fallout 4 default:  `C:\Program Files (x86)\Steam\SteamApps\common\Fallout 4\Pap
 
 To build, use `build:trigger` (<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>B</kbd> or <kbd>F9</kbd>).  
 You can select which build target you'd like to use with `build:select-active-target` (<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>T</kbd> or <kbd>F7</kbd>).  
-There are multiple build targets: default, release, and final release. Only the default target is available for Skyrim.  
-The default target will use the `release` and `final` settings from the project file/configuration file.  
-The release target will send the `release` argument to the compiler.  
-The final release target will send both the `release` and `final` arguments to the compiler.
+There are multiple build targets: default, release, and final release. Only the default target is available for Skyrim.
+* The **default** target will use the `release` and `final` settings from the project file/configuration file.
+* The **release** target will send the `-release` argument to the compiler.
+* The **final release** target will send both the `-release` and `-final` arguments to the compiler.
+
 If you're using a project file, the `release` and `final` values in there will still be taken into account by the compiler.
 Keep them `false` in the project file for the build targets to work properly.  
 If you have both a project file and a fully-buildable configuration file present, targets will be available for both.
@@ -37,11 +38,11 @@ This should also go in your root directory. The possible settings:
 | `game`            | String   |                           | **Required if `compiler` is not defined.** Must be one of `skyrim` or `fallout4`.              |
 | `compiler`        | String   | Appropriate `game` path   | **Required if `game` is not defined.** Full path to the Papyrus compiler you wish to use.      |
 | `flags`           | String   | Appropriate `game` file   | **Required if `game` is not defined.** The compiler flags file.                                |
-| `output`          | String   | `.`                       | Directory for the compiler to output to                                                        |
-| `imports`         | Array    |                           | **Required.** Array of strings that are full paths to script import directories.               |
+| `output`          | String   | `.`                       | The directory for the compiler to output to.                                                   |
+| `imports`         | Array    |                           | **Required.** An array of strings that are full paths to script import directories.            |
 | `optimize`        | Boolean  | `true`                    | Whether or not the compiler should optimize its output.                                        |
-| `release`         | Boolean  | `false`                   | Whether or not the compiler should build for release (strip out debugOnly) - Note that instead of specifying this, you can select the "Papyrus release" build target. |
-| `final`           | Boolean  | `false`                   | Whether or not the compiler should build for final release (strip out betaOnly) - Note that instead of specifying this, you can select the "Papyrus final release" build target. |
+| `release`         | Boolean  | `false`                   | Whether or not the compiler should build for release (strip out debugOnly). Instead of specifying this, you can select the "Papyrus release" build target. |
+| `final`           | Boolean  | `false`                   | Whether or not the compiler should build for final release (strip out betaOnly). Instead of specifying this, you can select the "Papyrus final release" build target. |
 
 Triggering a build will compile the file you currently have opened.
 
