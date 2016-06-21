@@ -18,7 +18,9 @@ You can select which build target you'd like to use with `build:select-active-ta
 There are multiple build targets: default, release, and final release. Only the default target is available for Skyrim.  
 The default target will use the `release` and `final` settings from the project file/configuration file.  
 The release target will send the `release` argument to the compiler.  
-The final release target will send both the `release` and `final` arguments to the compiler.  
+The final release target will send both the `release` and `final` arguments to the compiler.
+If you're using a project file, the `release` and `final` values in there will still be taken into account by the compiler.
+Keep them `false` in the project file for the build targets to work properly.  
 If you have both a project file and a fully-buildable configuration file present, targets will be available for both.
 
 ### Papyrus project files
