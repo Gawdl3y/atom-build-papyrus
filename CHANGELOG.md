@@ -1,4 +1,6 @@
 ## 1.4
+- 1.4.2
+	* Made the current working directory for the compiler execution the directory of the compiler instead of the directory of the project/config file to work around an issue with the compiler
 - 1.4.1
 	* Updated readme with badges, some reformatting, and information about project file `release` and `final` values still being taken into account for the build targets
 - 1.4.0
