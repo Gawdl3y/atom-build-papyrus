@@ -1,4 +1,6 @@
 ## 1.4
+- 1.4.3
+	* Made the game compiler validity notification not appear when the provider is being loaded and the config file has the compiler specified
 - 1.4.2
 	* Made the current working directory for the compiler execution the directory of the compiler instead of the directory of the project/config file to work around an issue with the compiler
 - 1.4.1
