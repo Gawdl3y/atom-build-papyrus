@@ -1,4 +1,6 @@
 ## 1.4
+- 1.4.4
+	* Fixed the default game dropdown item labels in Atom 1.9.
 - 1.4.3
 	* Made the game compiler validity notification not appear when the provider is being loaded and the config file has the compiler specified
 - 1.4.2
